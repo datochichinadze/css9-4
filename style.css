@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #0E0E0E;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/*  */
+
+.headerContainer {
+    display: flex;
+    padding: 19px 206px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+
+
+.headereparagrap {
+    color: #1C2752;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.headerImages {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+
+
+.headerImages img {
+    cursor: pointer;
+}
